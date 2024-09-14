@@ -1,0 +1,855 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body{
+    background: #f2efe3;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+nav{
+    position: relative;
+    display: flex;
+    
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    top:0%;
+    background-color: #f2efe3;
+    z-index: 999;
+}
+.logo{
+ margin-left: 10px;
+}
+
+.search input[type="text"] {
+    color: #943c64;
+    padding: 6px;
+    border: 5px solid #943c64;
+    margin-top: 10px;
+    margin-left: 150px;
+    width: 500px;
+    font-size: 17px;
+    align-items:center;
+}
+
+div.search ::placeholder{
+    color: #ae889a;
+}
+
+.mice{
+    display: flex;
+    align-items:center;
+    cursor:pointer;
+    margin-right:60px;
+    margin-left: 0px;
+}
+
+.mice i{
+    background-color: #943c64;
+    padding: 9px;
+    margin-top: 5px;
+    margin-bottom: 7.5px;
+    font-size: 24px;
+    color: #f2efe3;
+    margin-left:0px;
+}
+.mice i:hover{
+    background-color:#641438;
+    transform: 0.3s;
+}
+
+
+.icon-container{
+    display: flex;
+    align-items: center;    
+    margin-right:0px;
+    text-align: center;
+   
+
+}
+.icon-container i{
+    margin-inline: 30px;
+    font-size: 25px;
+    color: #943c64;
+    cursor: pointer;
+    
+}
+
+.icon-container h3.cart{
+    font-family:sans-serif, serif;
+    padding-top: 7px;
+    font-size: 10px;
+    
+
+}
+.icon-container h3.wishlist{
+    font-family:sans-serif, serif;
+    padding-top: 7px;
+    font-size: 10px;
+    
+
+}
+.icon-container h3.store{
+    font-family:sans-serif, serif;
+    padding-top: 7px;
+    font-size: 10px;
+    
+
+}
+.icon-container h3.notification{
+    font-family:sans-serif, serif;
+    padding-top: 7px;
+    font-size: 10px;
+    
+
+}
+.icon-container h3.account{
+    font-family:sans-serif, serif;
+    padding-top: 7px;
+    font-size: 10px;
+    margin-left: 5px;
+    
+
+}
+
+.icon-container i:hover{
+    color:#641438;
+    transform: 0.3s;
+}
+
+/*@media only screen and (max-width:400px) {
+    nav.logo.search input{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+}*/
+
+/*...............................end nav1.........................*/
+
+div.nav2{
+    background-color:#943c64;
+    position:relative;
+    display: flex;
+    width: auto;
+    padding: 10px;
+    margin-top:85px;
+    
+}
+.nav2 a{
+    background-color: #f2efe3;
+    border: 0px solid #f2efe3;
+    border-radius: 10px;
+    margin-inline: 90px;
+    width: 240px;
+    height: 27px;
+    cursor: pointer;
+}
+.nav2 a{
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+    color:#943c64;
+    padding-top: 6px;
+}
+
+.nav2 a:hover{
+    background-color: #e3e1d6;
+    color:#641438;
+
+}
+
+/*...............................end nav2.........................*/
+
+
+div.text1{
+    font-size: 23px;
+    color: #943c64;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+
+ul.shape{
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+    
+
+}
+ul a{
+    margin-inline: 30px;
+}
+ul #ring{
+    border: 0px;
+    border-radius: 100%;
+}
+ul #necklace{
+    border: 0px;
+    border-radius: 100%;
+}
+ul #earing{
+    border: 0px;
+    border-radius: 100%;
+}
+ul #jhumka{
+    border: 0px;
+    border-radius: 100%;
+}
+ul #bracellet{
+    border: 0px;
+    border-radius: 100%;
+}
+ul #otheritems{
+    border: 0px;
+    border-radius: 100%;
+
+}
+
+
+
+/*...........................................................*/
+
+div.text2{
+    font-size: 23px;
+    color: #943c64;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+
+
+ul.shape2{
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+    
+
+}
+ul a{
+    margin-inline: 30px;
+}
+ul #ring2{
+    border: 0px;
+    border-radius: 100%;
+}
+ul #necklace2{
+    border: 0px;
+    border-radius: 100%;
+}
+ul #payals2{
+    border: 0px;
+    border-radius: 100%;
+}
+ul #earing2{
+    border: 0px;
+    border-radius: 100%;
+}
+ul #bracellet2{
+    border: 0px;
+    border-radius: 100%;
+}
+ul #otheritems2{
+    border: 0px;
+    border-radius: 100%;
+
+}
+
+/*...............................end............................*/
+
+div.nav3{
+    display: flex;
+    position:relative;
+    background-color: #943c64;
+    width: auto;
+    padding: 10px;
+    padding-left: 30px;
+    align-items: center;
+    margin-top: 50px;
+
+}
+div a.idd{
+     margin-inline:15px;
+     border: 0px solid #f2efe3;
+     background-color: #f2efe3;
+     border-radius: 10px;
+     width: 200px;
+     height: 25px;
+     cursor: pointer;
+     text-align: center;
+     padding-top: 8px;
+     font-size:18px;
+     color: #943c64;
+     text-decoration: none; 
+}
+
+div a.idd:hover{
+    background-color: #e3e1d6;
+    color: #641438;
+}
+
+/*........................end.................................................*/
+
+
+/*........................sliding setting through JS................................................*/
+
+
+div .slider{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 3px;
+    transition: all 1s ease;
+    text-align: center;
+    background-color: #fff;
+
+}
+
+/*........................end.................................................*/
+
+.top{
+    margin-top:19px ;
+    margin-bottom:0 ;
+    text-align: center;
+    color: #943c64;
+    font-size:25px;
+    font-family:sans-serif;
+}
+
+
+
+/*.....................line design.....................................*/
+
+
+.container{
+    padding: 10px;
+}
+.lines{
+    width:100%;
+    height: 45px;
+    position: relative;
+}
+.lines::after, .lines::before{
+    content:"";
+    position:absolute;
+    margin: auto;
+    height: 4px;
+    background: #943c64;
+    width:47%;
+    top: 45%;
+}
+.lines::after{
+    left: 0;
+}
+.lines::before{
+   right: 0;    
+}
+.diamond{
+    height: 20px;
+    width: 20px;
+    border: 5px solid #943c64;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    transform: rotate(45deg);
+}
+/*......................line design...end.........................*/
+
+.inline{
+    align-items: center;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.inline a{
+    
+    display: inline-block;
+    margin: 0 20px 20px 20px;
+    align-items: center;
+}
+
+/*......................top seller end..........*/
+
+
+
+.gift{
+    margin-top:25px ;
+    margin-bottom:0px ;
+    text-align: center;
+    color: #943c64;
+    font-size:25px;
+    font-family:sans-serif;
+}
+.container1{
+    padding: 10px;
+}
+.lines1{
+    width:100%;
+    height: 45px;
+    position: relative;
+}
+.lines1::after, .lines1::before{
+    content:"";
+    position:absolute;
+    margin: auto;
+    height: 4px;
+    background: #943c64;
+    width:47%;
+    top: 45%;
+}
+.lines1::after{
+    left: 0;
+}
+.lines1::before{
+   right: 0;    
+}
+.diamond1{
+    height: 20px;
+    width: 20px;
+    border: 5px solid #943c64;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    transform: rotate(45deg);
+
+}
+ul.mostgifted{
+    margin-top: 10px;
+    align-items: center;
+    margin-left: 45px;
+}
+ul.mostgifted div{
+    display: inline-block;
+    align-items: center;
+    
+   margin: 0 30px 30px 30px;
+
+}    
+.pre{
+    border: 3px solid #943c64;
+    width: 200px;
+    height: 250px;
+    background-color: #f2efe3;
+    box-shadow: 10px 10px #943c64;
+  }
+ div.con1{
+    padding: 5px;
+  }
+  ul.mostgifted div.pre:hover{
+    border:3px solid #641438;
+    box-shadow: 10px 10px #641438;
+  }
+
+  /*...........end........................................*/
+
+
+.bgcolor{
+    background-color: #943c64;
+    width: 100%;
+}
+
+
+.wed{
+    padding-top: 20px;
+    margin-top:20px ;
+    margin-bottom:0px ;
+    text-align: center;
+    color: #f2efe3;
+    font-size:25px;
+    font-family:sans-serif;
+}
+.container2{
+    padding: 10px;
+}
+.lines2{
+    width:100%;
+    height: 45px;
+    position: relative;
+}
+.lines2::after, .lines2::before{
+    content:"";
+    position:absolute;
+    margin: auto;
+    height: 4px;
+    background: #f2efe3;
+    width:47%;
+    top: 45%;
+}
+.lines2::after{
+    left: 0;
+}
+.lines2::before{
+   right: 0;    
+}
+.diamond2{
+    height: 20px;
+    width: 20px;
+    border: 5px solid #f2efe3;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    transform: rotate(45deg);
+
+}
+
+.wedding1{
+    align-items: center;
+    margin-left:75px;
+}
+.wedding1 a{
+    margin-top: 10px;
+    display: inline-block;
+    padding: 0 15px 15px 15px;
+   
+}
+.wedding2{
+    margin-top: 5px;
+    align-items: center;
+    margin-left:75px;
+}
+.wedding2 a{
+    margin-top: 5px;
+    display: inline-block;
+    padding:15px;
+   
+}
+
+/*.........................end......................*/
+
+
+.shop{
+
+    margin-top:20px ;
+    margin-bottom:0px ;
+    text-align: center;
+    color: #f2efe3;
+    font-size:25px;
+    font-family:sans-serif;
+}
+.container3{
+    padding: 10px;
+}
+.lines3{
+    width:100%;
+    height: 45px;
+    position: relative;
+}
+.lines3::after, .lines3::before{
+    content:"";
+    position:absolute;
+    margin: auto;
+    height: 4px;
+    background: #f2efe3;
+    width:47%;
+    top: 45%;
+}
+.lines3::after{
+    left: 0;
+}
+.lines3::before{
+   right: 0;    
+}
+.diamond3{
+    height: 20px;
+    width: 20px;
+    border: 5px solid #f2efe3;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    transform: rotate(45deg);
+
+}
+
+.gender{
+    margin-top: 10px;
+    align-items: center;
+    margin-left: 60px;
+}
+.gender a{
+    display: inline-block;
+    margin:0 20px 20px 20px;
+}
+.gender a h2{
+    text-align: center;
+    color: #f2efe3;
+    text-decoration: none;
+}
+.gender a:hover{
+    border: 3px solid #f2efe3;
+    transition: 0.3s;
+}
+/*............................end.............................*/
+
+div .new{
+
+    margin-top:20px ;
+    margin-bottom:0px ;
+    text-align: center;
+    color: #f2efe3;
+    font-size:25px;
+    font-family:sans-serif;
+}
+.container4{
+    padding: 10px;
+}
+.lines4{
+    width:100%;
+    height: 45px;
+    position: relative;
+}
+.lines4::after, .lines4::before{
+    content:"";
+    position:absolute;
+    margin: auto;
+    height: 4px;
+    background: #f2efe3;
+    width:47%;
+    top: 45%;
+}
+.lines4::after{
+    left: 0;
+}
+.lines4::before{
+   right: 0;    
+}
+.diamond4{
+    height: 20px;
+    width: 20px;
+    border: 5px solid #f2efe3;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    transform: rotate(45deg);
+}
+
+div.foryou{
+    align-items: center;
+    margin-left: 45px;
+    
+}
+div.foryou a{
+    display: inline-block;
+    margin: 20px;
+}
+/*...........................................end...........................................*/
+
+div .bgcolor2{
+    background-color: #f2efe3;
+}
+
+div .more{
+
+    margin-top:20px ;
+    margin-bottom:0px ;
+    text-align: center;
+    color: #943c64;
+    font-size:25px;
+    font-family:sans-serif;
+}
+.container5{
+    padding: 10px;
+}
+.lines5{
+    width:100%;
+    height: 45px;
+    position: relative;
+}
+.lines5::after, .lines5::before{
+    content:"";
+    position:absolute;
+    margin: auto;
+    height: 4px;
+    background: #943c64;
+    width:47%;
+    top: 45%;
+}
+.lines5::after{
+    left: 0;
+}
+.lines5::before{
+   right: 0;    
+}
+.diamond5{
+    height: 20px;
+    width: 20px;
+    border: 5px solid #943c64;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    transform: rotate(45deg);
+}
+
+.more h1{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 45px;
+    color: #943c64;
+}
+
+.container5 {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo5 {
+   margin-left: 15%;
+  }
+  
+  .logo5 img {
+    width: 100px;
+    height: 100px;
+    margin-left: 27%;
+    
+  }
+  
+  .offer {
+    text-align: center;
+    
+  }
+  
+  .offer h1 {
+    text-shadow: -3px 0px #943c64, 0px 3px #943c64, 3px 0px #943c64, 0px -3px #943c64;
+    margin-top: 0%;
+    font-size: 130px;
+    color: #f2efe3;
+  }
+
+  .offer p{
+    text-align: center;
+    font-size: 40px;
+    color: #943c64;
+  }
+  
+  .offer span {
+    margin-top: 0;
+    font-size: 130px;
+    color: #943c64;
+  }
+  .offer button{
+    font-size: 30px;
+    color: #943c64;
+    margin: 0px;
+    width: 200px;
+    height: 80px;
+    border: 3px solid #943c64;
+    background-color: #f2efe3;
+  }
+  .offer button:hover{
+    color: #f2efe3;
+    background-color: #943c64;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .image {
+    margin-top: 20px;
+    margin-left: 15%;
+  }
+  
+  .image img {
+    width: 700px;
+    height: 550px;
+    border: 2px solid #943c64;
+    background-color: #f2efe3;
+    box-shadow: 30px 30px #943c64;
+    margin-bottom: 50px;
+  }
+  
+/*..............................end....................................*/
+
+div.bgcolor3{
+    background-color: #943c64;
+}
+
+.container6 {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo6 {
+   margin-right: 15%;
+  }
+  
+  .logo6 img {
+    width: 100px;
+    height: 100px;
+    margin-left: 23%;
+    
+  }
+  
+  .offer6 {
+    text-align: center;
+    
+  }
+  
+  .offer6 h1 {
+    text-shadow: -3px 0px #f2efe3, 0px 3px #f2efe3, 3px 0px #f2efe3, 0px -3px #f2efe3;
+    margin-top: 0%;
+    font-size: 130px;
+    color: #943c64;
+  }
+
+  .offer6 p{
+    text-align: center;
+    font-size: 40px;
+    color: #f2efe3;
+  }
+  
+  .offer6 span {
+    margin-top: 0;
+    font-size: 130px;
+    color: #f2efe3;
+  }
+  .offer6 button{
+    font-size: 30px;
+    color: #f2efe3;
+    margin: 0px;
+    width: 200px;
+    height: 80px;
+    border: 3px solid #f2efe3;
+    background-color: #943c64;
+  }
+  .offer6 button:hover{
+    color:#943c64;
+    background-color: #f2efe3;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .image6 {
+    margin-top: 20px;
+    margin-right: 15%;
+    margin-left: 40px;
+  }
+  
+  .image6 img {
+    width: 700px;
+    height: 550px;
+    border: 2px solid #f2efe3;
+    background-color: #943c64;
+    box-shadow: 30px 30px #f2efe3;
+    margin-bottom: 50px;
+    margin-top: 20px;
+  }
