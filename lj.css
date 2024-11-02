@@ -11,6 +11,7 @@ body{
 }
 body{
     font-family: "Roboto", sans-serif;
+    
 }
 
 nav{
@@ -776,13 +777,13 @@ div .more{
     margin-bottom: 50px;
   }
   
-/*..............................end....................................*/
+ /*..............................end....................................*/
 
-div.bgcolor3{
+ div.bgcolor3{
     background-color: #943c64;
-}
+ }
 
-.container6 {
+ .container6 {
     position: relative;
     display: flex;
     align-items: center;
@@ -853,3 +854,297 @@ div.bgcolor3{
     margin-bottom: 50px;
     margin-top: 20px;
   }
+ /*.........................end........................................................................*/
+
+ div .bgcolor4{
+    background-color: #f2efe3;
+ }
+
+ .container7 {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo7 {
+   margin-left: 15%;
+  }
+  
+  .logo7 img {
+    width: 100px;
+    height: 100px;
+    margin-left: 27%;
+    
+  }
+  
+  .offer {
+    text-align: center;
+    
+  }
+  
+  .offer h1 {
+    text-shadow: -3px 0px #943c64, 0px 3px #943c64, 3px 0px #943c64, 0px -3px #943c64;
+    margin-top: 0%;
+    font-size: 130px;
+    color: #f2efe3;
+  }
+
+  .offer p{
+    text-align: center;
+    font-size: 40px;
+    color: #943c64;
+  }
+  
+  .offer span {
+    margin-top: 0;
+    font-size: 130px;
+    color: #943c64;
+  }
+  .offer button{
+    font-size: 30px;
+    color: #943c64;
+    margin: 0px;
+    width: 200px;
+    height: 80px;
+    border: 3px solid #943c64;
+    background-color: #f2efe3;
+  }
+  .offer button:hover{
+    color: #f2efe3;
+    background-color: #943c64;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .image {
+    margin-top: 25px;
+    margin-left: 15%;
+  }
+  
+  .image img {
+    width: 700px;
+    height: 550px;
+    border: 2px solid #943c64;
+    background-color: #f2efe3;
+    box-shadow: 30px 30px #943c64;
+    margin-bottom: 50px;
+  }
+  /*..................................end...........................................*/
+
+  div.bgcolor5{
+    background-color: #943c64;
+  }
+
+  .container8 {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo8 {
+   margin-right: 15%;
+  }
+  
+  .logo8 img {
+    width: 100px;
+    height: 100px;
+    margin-left: 25%;
+    
+  }
+  
+  .offer6 {
+    text-align: center;
+    
+  }
+  
+  .offer6 h1 {
+    text-shadow: -3px 0px #f2efe3, 0px 3px #f2efe3, 3px 0px #f2efe3, 0px -3px #f2efe3;
+    margin-top: 0%;
+    font-size: 130px;
+    color: #943c64;
+  }
+
+  .offer6 p{
+    text-align: center;
+    font-size: 40px;
+    color: #f2efe3;
+  }
+  
+  .offer6 span {
+    margin-top: 0;
+    font-size: 130px;
+    color: #f2efe3;
+  }
+  .offer6 button{
+    font-size: 30px;
+    color: #f2efe3;
+    margin: 0px;
+    width: 200px;
+    height: 80px;
+    border: 3px solid #f2efe3;
+    background-color: #943c64;
+  }
+  .offer6 button:hover{
+    color:#943c64;
+    background-color: #f2efe3;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .image8 {
+    margin-top: 20px;
+    margin-right: 15%;
+    margin-left: 40px;
+  }
+  
+  .image8 img {
+    width: 700px;
+    height: 550px;
+    border: 2px solid #f2efe3;
+    background-color: #943c64;
+    box-shadow: 30px 30px #f2efe3;
+    margin-bottom: 50px;
+    margin-top: 20px;
+  }
+
+  /*........................................end..................................................*/
+
+div.bgcolor6{
+    background-color:#f2efe3;
+}
+.container9 {
+    position: relative;
+    display: flex;
+  }
+
+.image9 img{
+    margin-top: 30px;
+    width: 700px;
+    height: 700px;
+} 
+
+.txt{
+    color:#943c64;
+    font-weight: normal;
+    margin-top: 18%;
+    margin-left: 17%;
+}
+.txt h2{
+    font-size: 50px;
+    font-family: Lucida Calligraphy;
+    
+    padding:10px;
+}
+.txt p{
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-family:Calibri Light;
+    margin-left: 35px;
+}
+.txt button{
+    color: #943c64;
+    margin-left: 25%;
+    width:100px;
+    height:50px;
+    background-color:#f2efe3 ;
+    border: 2px solid #943c64;
+}
+.txt button:hover{
+    color:#f2efe3;
+    background-color: #943c64;
+    transition: 0.3s;
+    cursor: pointer;
+}
+/*.....................................................end.......................................*/
+
+div.moonlight{
+    color:#943c64;
+    margin-top: 30px;
+    font-weight: normal;
+    font-family:Segoe Print;
+    font-size:40px;
+    text-align:center;
+}
+.container10{
+    position: relative;
+    display: flex;
+    margin-left: 90px;
+}
+.paragraph1 img{
+   
+    width: 250px;
+    height:300px;
+    margin: 40px 100px 30px 100px;
+}
+.paragraph1 p{
+    color:#943c64;
+    text-align: center;
+}
+.paragraph2 img{
+    width: 250px;
+    height:300px;
+    margin: 40px 100px 30px 100px;
+}
+.paragraph2 p{
+    color:#943c64;
+    text-align: center;
+}
+.paragraph3 img{
+    width: 250px;
+    height:300px;
+    margin: 40px 100px 30px 100px;
+}
+.paragraph3 p{
+    color:#943c64;
+    text-align: center;
+}
+/*............................................end.......................................*/
+
+div.footimg img{
+    margin-top: 30px;
+    width: 100%;
+    height:500px;
+}
+
+/*............................................end.......................................*/
+
+div.bgcolor7{
+    height: 250px;
+    margin-top: 0px;
+    background-color: #943c64;
+}
+
+div.container11{
+    font-weight: normal;
+    color:#f2efe3;
+    position:relative;
+    display:flex;
+}
+.getintouch h3{
+    margin-top: 80px;
+    margin-left: 70px;
+    font-size: 50px;
+    font-family: cursive;
+    text-align: left;
+}
+.address h4{
+    margin-top: 90px;
+    margin-left: 200px;
+}
+.address p{
+    margin-left: 200px;
+}
+.email h4{
+    margin-top: 90px;
+    margin-left: 200px;
+}
+.email p{
+    margin-left: 200px;
+}
+.phone h4{
+    margin-top: 90px;
+    margin-left: 200px;
+}
+.phone p{
+    margin-left: 200px;
+}
